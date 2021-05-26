@@ -1,0 +1,28 @@
+@charset "utf-8";
+/*--------GRID---------*/
+section{
+    display:grid;
+    grid-template-columns:50px auto 50px;
+}
+/*--------GRID---------*/
+main{
+    max-width:800px;
+    margin:auto;
+}
+article, section{
+    border:1px solid black;
+    padding:5px;
+}
+img{
+    width:100%;
+}
+td, th{
+    border:1px solid gray;
+}
+tr:nth-child(odd){
+    background:gray;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+}
